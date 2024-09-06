@@ -1,2 +1,4 @@
 cd scripts
-bash magpie-qwen2-7b.sh # 시스템 프롬프트를 사용하려면 have_system_prompt 옵션을 해당 파일에서 활성화 하여야 함. 그리고 추가적으로 action 넣어줘야 함.
+bash magpie-qwen2-7b.sh 
+# 시스템 프롬프트를 사용하려면 system_prompt 옵션을 활성화하기 위해 ./configs/model_configs.json파일에서 system_prompt를 넣어줘야 함. 
+# pre_query_template_with_system_prompt에서 system_prompt를 넣어주면 끝!
